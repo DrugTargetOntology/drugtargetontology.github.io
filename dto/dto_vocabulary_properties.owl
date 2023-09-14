@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.drugtargetontology.org/dto/dto_vocabulary_properties.owl#"
+     xml:base="http://www.drugtargetontology.org/dto/dto_vocabulary_properties.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:life="http://www.lifekb.org/life#"
+     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:bto="http://purl.obolibrary.org/obo/bto#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dto="http://www.drugtargetontology.org/dto/"
+     xmlns:DTO="http://dto.org/DTO/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <owl:Ontology rdf:about="http://www.drugtargetontology.org/dto/dto_vocabulary_properties.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.drugtargetontology.org/dto/definition"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bto#develops_from -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bto#develops_from">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">develops_from</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives from/develops from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bto#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bto#part_of">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bto#related_to -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bto#related_to">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related_to</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">related to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91000020 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91000020">
+        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100128"/>
+        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000021"/>
+        <rdfs:label>has target development level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90000018 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90000018">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">map to pfam domain</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90000020 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90000020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90000031 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90000031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has amino acid residue</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90000033 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90000033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is mutated form of</rdfs:label>
+    </owl:ObjectProperty>
+    
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100005 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100005">
+        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100006"/>
+        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000105"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <dto:definition xml:lang="en">some evidence is considered for Star Score between 2.5 and 3.5 adopted from TISSUES database (tissues.jensenlab.org/).</dto:definition>
+        <rdfs:label>is expressed in tissue with at least some evidence from TISSUES</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100006 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100006">
+        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000104"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <dto:definition xml:lang="en">weak evidence is considered for Star Score between zero and 2.4 adopted from TISSUES database (tissues.jensenlab.org/).</dto:definition>
+        <rdfs:label>is expressed in tissue with at least weak evidence from TISSUES</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100010 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100010">
+        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100544"/>
+        <rdfs:label>is gene template of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100011 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100011">
+        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000545"/>
+        <rdfs:label>has associated gene from DISEASE</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100012 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100012">
+        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100068"/>
+        <rdfs:label>is associated tissue of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100013 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100013">
+        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000545"/>
+        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91001101"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <dto:definition xml:lang="en">weak evidence is considered for Star Score between zero and 2.4 adopted from DISEASES database (http://diseases.jensenlab.org/)</dto:definition>
+        <rdfs:label>has associated disease with at least weak evidence from DISEASES</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100014 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100014">
+        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100013"/>
+        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91001102"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <dto:definition xml:lang="en">some evidence is considered for Star Score between 2.5 and 3.5 adopted from DISEASES database (http://diseases.jensenlab.org/)</dto:definition>
+        <rdfs:label>has associated disease with at least some evidence from DISEASES</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100015 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100015">
+        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100014"/>
+        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91001103"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <dto:definition xml:lang="en">strong evidence is considered for Star Score between 3.6 and 5 adopted from DISEASES database (http://diseases.jensenlab.org/)</dto:definition>
+        <rdfs:label>has associated disease with strong evidence from DISEASES</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100056 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100056">
+        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100005"/>
+        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000106"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <dto:definition xml:lang="en">strong evidence is considered for Star Score between 3.6 and 5 adopted from TISSUES database (tissues.jensenlab.org/).</dto:definition>
+        <rdfs:label>is expressed in tissue with strong evidence from TISSUES</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100068 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100068">
+        <rdfs:label>has associated tissue</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100120 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100120">
+        <rdfs:label>has gating mechanism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100121 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100121">
+        <owl:inverseOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000177"/>
+        <rdfs:label>transports molecular entity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100122 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100122">
+        <rdfs:label>has topology</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100125 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100125">
+        <rdfs:label>binds molecular entity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100126 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100126">
+        <rdfs:label>has quaternary organization</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100128 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100128">
+        <rdfs:label>has quality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90100544 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90100544">
+        <rdfs:label>has gene template</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91000021 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91000021">
+        <rdfs:label>is target development level of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91000104 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91000104">
+        <dto:definition xml:lang="en">weak evidence is considered for Star Score between zero and 2.4 adopted from TISSUES database (tissues.jensenlab.org/).</dto:definition>
+        <rdfs:label>is expression location of gene with at least weak evidence from TISSUES</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91000105 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91000105">
+        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000104"/>
+        <dto:definition xml:lang="en">some evidence is considered for Star Score between 2.5 and 3.5 adopted from TISSUES database (tissues.jensenlab.org/).</dto:definition>
+        <rdfs:label>is expression location of gene with at least some evidence from TISSUES</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91000106 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91000106">
+        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91000105"/>
+        <dto:definition xml:lang="en">strong evidence is considered for Star Score between 3.6 and 5 adopted from TISSUES database (tissues.jensenlab.org/).</dto:definition>
+        <rdfs:label>is expression location of gene with strong evidence from TISSUES</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91000177 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91000177">
+        <rdfs:label>is transported by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91000545 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91000545">
+        <rdfs:label>has associated disease from DISEASES</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91001101 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91001101">
+        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_90100011"/>
+        <dto:definition xml:lang="en">weak evidence is considered for Star Score between zero and 2.4 adopted from DISEASES database (http://diseases.jensenlab.org/)</dto:definition>
+        <rdfs:label>has associated gene with at least weak evidence from DISEASE</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91001102 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91001102">
+        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91001101"/>
+        <dto:definition xml:lang="en">some evidence is considered for Star Score between 2.5 and 3.5 adopted from DISEASES database (http://diseases.jensenlab.org/)</dto:definition>
+        <rdfs:label>has associated gene with at least some evidence from DISEASE</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91001103 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91001103">
+        <rdfs:subPropertyOf rdf:resource="http://www.drugtargetontology.org/dto/DTO_91001102"/>
+        <dto:definition xml:lang="en">strong evidence is considered for Star Score between 3.6 and 5 adopted from DISEASES database (http://diseases.jensenlab.org/)</dto:definition>
+        <rdfs:label>has associated gene with strong evidence from DISEASE</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_91001109 -->
+
+    <owl:ObjectProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_91001109">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/bto#develops_from"/>
+        <rdfs:label>derives from organ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.drugtargetontology.org/dto/DTO_90000021 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.drugtargetontology.org/dto/DTO_90000021">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has amino acid position</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00100000">
+        <rdfs:label>Protein</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.drugtargetontology.org/dto/DTO_00200000">
+        <rdfs:label>Gene</rdfs:label>
+		<obo:IAO_0000115>A genomic sequence, which is the unit of heredity of a living organism. It consists of regulatory regions and transcribed regions.</obo:IAO_0000115>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
